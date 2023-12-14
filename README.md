@@ -55,12 +55,6 @@ We decided to test our program by generating warnings for a topic many people wo
 | medium list (6 terms) | 17 |34 |0|4|
 | long list (10 terms) | 21 |34|0|0|
 
-| A | B | C | D | E |
-|---|---|---|---|---|
-| 1 | 2 | 3 | 4 | 4 |
-| 1 | 2 | 3 | 5 | 4 |
-| 1 | 2 | 5 | 4 | 4 |
-
 We did not get any false positives, and with a list of 10 terms our program accurately identified every mention of sexual assault in a set of informative articles.
 
 There was one situation in which our tool did not produce useful results, though: fiction that described sexual assault without using any words that refer specifically to sexual assault. We tested such an excerpt against all three term lists, and unsurprisingly none flagged any of the text as containing mentions of sexual assault. In such cases the triggering content is comprised of detailed description using common words, not words specifically related to sexual assault or other triggers. With this in mind, our tool is effective primarily for texts that use direct language, especially when it comes to broad concepts like sexual assault. It is effective at checking for more wording-specific content like mentions of specific objects in any type of text. For situations where our tool is not very effective, crowdsourced content warnings are often a good alternative since they do not rely on specific word use. AI might also have the potential to more effectively find non-wording-based triggering content. 
