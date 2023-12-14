@@ -48,6 +48,7 @@ We built our tool in Python. It uses the python-docx library to read from and wr
 
 
 We decided to test our program by generating warnings for a topic many people would like to be warned of, sexual assault. We tested our program on 55 paragraphs of text across 3 informative articles. 2 of the articles discussed sexual assault and the other discussed non-sexual violence. We tried three different lists of search terms, a short list with just the term 'sexual assault', a medium list with 6 obvious terms, and a long list of 10 terms built from searching for related terms on the internet.
+
 | search word list | true positives |true negatives |false positives|false negatives|
 |--|--|--|--|--|
 | short list (1 term) |  9|34|0|12|
